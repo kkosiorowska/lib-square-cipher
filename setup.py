@@ -7,7 +7,7 @@ setup(
 	author_email='228382@student.pwr.edu.pl',
 	url='https://github.com/kkosiorowska/lib-square-cipher',
     	description='An example python package',
-    	long_description=open('README.txt').read(),
+    	long_description=open('README.md').read(),
     	packages=find_packages()
 	# packages=['lib-square-cipher', 'projectname.utils'],
 )

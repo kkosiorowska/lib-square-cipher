@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+lib_square_cipher.egg-info/PKG-INFO
+lib_square_cipher.egg-info/SOURCES.txt
+lib_square_cipher.egg-info/dependency_links.txt
+lib_square_cipher.egg-info/top_level.txt
