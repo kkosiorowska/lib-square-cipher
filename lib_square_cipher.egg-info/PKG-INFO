@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: lib-square-cipher
-Version: 2.0
+Version: 1.0
 Summary: An example python package
 Home-page: https://github.com/kkosiorowska/lib-square-cipher
 Author: Karolina Kosiorowska
@@ -8,8 +8,18 @@ Author-email: 228382@student.pwr.edu.pl
 License: UNKNOWN
 Description: # lib-square-cipher
         
-        ## Create a file:
+        ## Create a file
         
         * python setup.py sdist
+        
+        ## Install package
+        
+        * pip install git+git@github.com:kkosiorowska/lib-square-cipher.git#egg=lib-square-cipher
+        
+        ## Updating the package
+        
+        * pip install git+git@github.com:kkosiorowska/lib-square-cipher.git#egg=lib-square-cipher
+        
+        
         
 Platform: UNKNOWN
