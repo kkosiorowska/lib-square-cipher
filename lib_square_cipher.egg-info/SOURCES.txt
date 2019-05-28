@@ -3,9 +3,9 @@ README.md
 setup.py
 cryptography/Cipher.py
 cryptography/__init__.py
-cryptography/data/Point.py
-cryptography/data/Square.py
-cryptography/data/__init__.py
+data/Point.py
+data/Square.py
+data/__init__.py
 lib_square_cipher.egg-info/PKG-INFO
 lib_square_cipher.egg-info/SOURCES.txt
 lib_square_cipher.egg-info/dependency_links.txt

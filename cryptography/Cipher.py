@@ -1,5 +1,5 @@
-from .data.Point import Point
-from .data.Square import Square
+import data.Point as Point
+import data.Square as Square
 
 
 class Cipher:
@@ -56,10 +56,10 @@ class Cipher:
 
         return encode_text
 
-def main():
-    c = Cipher()
-    s = c.encode("ala ma kota")
-    print(s)
-
-
-main()
+# def main():
+#     c = Cipher()
+#     s = c.encode("ala ma kota")
+#     print(s)
+#
+#
+# main()
