@@ -8,6 +8,6 @@ setup(
 	url='https://github.com/kkosiorowska/lib-square-cipher',
     	description='An example python package',
     	long_description=open('README.md').read(),
-    	packages=find_packages()
-	# packages=['lib-square-cipher', 'projectname.utils'],
+    	#packages=find_packages()
+	packages=['cryptography'],
 )
