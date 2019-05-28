@@ -9,5 +9,5 @@ setup(
     	description='An example python package',
     	long_description=open('README.md').read(),
     	#packages=find_packages()
-	packages=['cryptography'],
+	packages=['cryptography', 'data']
 )

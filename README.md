@@ -4,12 +4,19 @@
 
 * python setup.py sdist
 
-## Install package
+## Install pypiserver
 
-* pip install git+git@github.com:kkosiorowska/lib-square-cipher.git#egg=lib-square-cipher
+* pip install pypiserver
 
-## Updating the package
+## Running pypiserver
 
-* pip install git+git@github.com:kkosiorowska/lib-square-cipher.git#egg=lib-square-cipher
+* pypi-server -p 8080 ./packages &
 
+## Download and install hosted packages
+
+* pip install --extra-index-url http://localhost:8080 lib-square-cipher==1.0
+
+## Uninstall hosted packages
+
+* pip uninstall lib-square-cipher
 
