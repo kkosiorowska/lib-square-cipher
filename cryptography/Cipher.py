@@ -4,7 +4,7 @@ import data.Square as Square
 
 class Cipher:
     def __init__(self):
-        self.square = Square()
+        self.square = Square.Square()
 
     def encode(self, text):
         # 4. Jeśli ciąg znaków zawierać będzie nieparzystą liczbę znaków, należy uzupełnić go literą X.
@@ -35,7 +35,7 @@ class Cipher:
         for i in range(len(self.square.matrix)):
             for j in range(len(self.square.matrix[i])):
                 if self.square.matrix[i][j] == el:
-                    return Point(i, j)
+                    return Point.Point(i, j)
 
         return False
 
