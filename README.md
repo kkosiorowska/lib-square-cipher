@@ -15,6 +15,8 @@
 ## Download and install hosted packages
 
 * pip install --extra-index-url http://localhost:8080 lib-square-cipher==1.0
+* pip install --extra-index-url http://localhost:8080 lib-square-cipher==2.0
+* pip install --extra-index-url http://localhost:8080 lib-square-cipher==3.0
 
 ## Uninstall hosted packages
 
