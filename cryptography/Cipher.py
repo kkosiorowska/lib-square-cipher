@@ -6,7 +6,7 @@ class Cipher:
     def __init__(self):
         self.square = Square.Square()
 
-    def encode_v2(self, text):
+    def encode_v3(self, text):
         # 4. Jeśli ciąg znaków zawierać będzie nieparzystą liczbę znaków, należy uzupełnić go literą X.
         if len(text) % 2 == 1:
             text = text + "x"
